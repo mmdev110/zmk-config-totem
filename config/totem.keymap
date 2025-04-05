@@ -138,7 +138,7 @@ label= "NAV"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &none     &none       &none        &none       &none           &none     &none       &none        &none       &none      
-                &none     &none       &none        &none       &none           &kp left  &kp down    &kp up       &kp right       &none 
+                &none     &none       &none        &none       &none           &kp LEFT  &kp DOWN    &kp UP       &kp RIGHT       &none 
     &trans      &none     &none       &none        &none       &none           &none     &none       &none        &none       &none   &trans         
                                       &none        &none       &none         &none     &none       &none      
                         >;
