@@ -172,7 +172,7 @@ label= "ADJ"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp F1    &kp F2      &kp F3    &kp F10         &sys_reset      &bt BT_CLR &none      &kp C_MUTE  &kp C_VOL_DN &kp C_VOL_UP
-                &kp F4    &kp F5      &kp F6    &kp F11         &bootloader     &bt BT_NXT &none      &kp screenshot_macro &none        &none  
+                &kp F4    &kp F5      &kp F6    &kp F11         &bootloader     &bt BT_NXT &none      &screenshot_macro &none        &none  
     &trans      &kp F7    &kp F8      &kp F9    &kp F12         &out OUT_TOG    &bt BT_PRV &none      &none       &none        &none      &trans         
                                         &trans      &trans      &trans          &trans      &trans      &trans      
                         >;
