@@ -109,7 +109,7 @@ label= "SYM"                            ;
 
                 &kp N1     &kp N2      &kp N3      &none        &none           &kp MINUS   &kp EQUAL  &kp LPAR    &kp RPAR    &kp GRAVE
                 &kp N4     &kp N5      &kp N6      &none        &none           &kp SEMI    &kp SQT    &kp LBKT    &kp RBKT    &kp BSLH
-    &trans      &kp N7     &kp N8      &kp N9      &kp N0       &none           &kp COMMA   &kp DOT    &kp SLASH   &none       &DEL        &none      
+    &trans      &kp N7     &kp N8      &kp N9      &kp N0       &none           &kp COMMA   &kp DOT    &kp SLASH   &none       &kp DEL        &none      
                                         &trans      &trans      &trans          &trans       &trans     &trans      
                         >;
                 };
