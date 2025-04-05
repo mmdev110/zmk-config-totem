@@ -64,9 +64,10 @@
         };
         screenshot_macro: screenshot_macro {
                 compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
                 label = "Screenshot";
                 bindings = <
-                &kp LWIN &kp LCTRL &kp N4
+                &macro_tap &kp LWIN &kp LCTRL &kp N4
                 >;
         };
     };
