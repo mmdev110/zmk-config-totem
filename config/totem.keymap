@@ -87,15 +87,15 @@ label= "BASE"                              ;
 //             ┃  A/SHIFT  ┃     S     ┃     D     ┃     F     ┃     G     ┃   ┃     H     ┃     J     ┃     K     ┃     L     ┃   /SHIFT  ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃  Z/ctrl   ┃   X/opt   ┃   C/cmd   ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃    /cmd   ┃    /opt   ┃   eng/ctrl┃    L5     ┃
-// ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃ space/L2  ┃ space/L1  ┃ space/cmd ┃   ┃  ENTER/L1 ┃ ENTER/L1  ┃  BSPC/L2  ┃
+// ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━c━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+//                                     ┃ space/L2  ┃ space/L1  ┃ space/cmd ┃   ┃  ENTER/L1 ┃ ENTER/L1  ┃  BSPC     ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &mt LSHIFT A &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &mt RSHIFT SPACE
     &none       &mt LCTRL Z &mt LALT X  &mt LWIN C   &kp V       &kp B           &kp N       &kp M       &mt RWIN A &mt RALT SPACE &mt RCTRL LANG2   &mo ADJ
-                                        &lt NAV SPACE &lt SYM SPACE &mt LWIN SPACE  &lt SYM RET &lt SYM RET   &lt NAV BSPC
+                                        &lt NAV SPACE &lt SYM SPACE &mt LWIN SPACE  &lt SYM RET &lt SYM RET &kp BSPC
                         >;
                 };
 
@@ -110,7 +110,7 @@ label= "SYM"                            ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     1     ┃     2     ┃     3     ┃           ┃           ┃   ┃     -     ┃     =     ┃     (     ┃     )     ┃     `     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     4     ┃     5     ┃    6      ┃           ┃           ┃   ┃     ;     ┃     '     ┃     [     ┃     ]     ┃     \     ┃
+//             ┃  4/SHIFT  ┃     5     ┃    6      ┃           ┃           ┃   ┃     ;     ┃     '     ┃     [     ┃     ]     ┃   \/SHIFT ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃      7    ┃     8     ┃     9     ┃    0      ┃           ┃   ┃     ,     ┃     .     ┃     /     ┃           ┃     JP    ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -120,7 +120,7 @@ label= "SYM"                            ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp N1     &kp N2      &kp N3      &none        &none           &kp MINUS   &kp EQUAL  &kp LPAR    &kp RPAR    &kp GRAVE
-                &kp N4     &kp N5      &kp N6      &none        &none           &kp SEMI    &kp SQT    &kp LBKT    &kp RBKT    &kp BSLH
+                &mt LSHIFT N4     &kp N5      &kp N6      &none        &none           &kp SEMI    &kp SQT    &kp LBKT    &kp RBKT    &mt RSHIFT BSLH
     &trans      &kp N7     &kp N8      &kp N9      &kp N0       &none           &kp COMMA   &kp DOT    &kp SLASH   &none       &kp LANG1   &none      
                                         &trans      &trans      &trans          &trans      &trans    &kp DEL      
                         >;
